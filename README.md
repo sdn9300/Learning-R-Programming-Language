@@ -105,7 +105,6 @@ source("01-r-fundamentals/intro.R")
 ### Foundations
 
 * [x] Set up R and RStudio
-* [x] Complete first Exercism exercise: **Lasagna**
 * [x] Learn basic functions and function composition
 * [ ] Master vectors and vectorized operations
 * [ ] Understand factors and data frames
@@ -133,7 +132,7 @@ source("01-r-fundamentals/intro.R")
 
 📌 **Exercism R Track – Fundamentals**
 
-Recently completed the **Lasagna** exercise, covering:
+Recently completed an exercise, covering:
 
 * Defining and calling functions
 * Working with parameters and return values
