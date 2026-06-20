@@ -42,8 +42,7 @@ Each directory contains `.R` scripts, exercises, and notes documenting key conce
 | Resource                             | Purpose                                                    |
 | ------------------------------------ | ---------------------------------------------------------- |
 | **R for Data Science (2e)**          | Primary resource for modern data analysis workflows        |
-| **Various Online R Programming Language Exercises**      | 
-Programming practice and problem-solving |                
+| **Various Online R Programming Language Exercises** | Programming practice and problem-solving |
 | **Advanced R**                       | Deep understanding of R internals and programming concepts |
 | **Hands-On Machine Learning with R** | Applied machine learning techniques                        |
 | **Swirl**                            | Interactive learning within the R console                  |
