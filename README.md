@@ -130,14 +130,7 @@ source("01-r-fundamentals/intro.R")
 
 ## Current Focus
 
-📌 **Various Online R Track Exercises – Fundamentals**
-
-Recently completed an exercise, covering:
-
-* Defining and calling functions
-* Working with parameters and return values
-* Function composition
-* Writing clean and reusable code
+📌 **Strengthening the fundamentals and my understanding of the R programming language by practising exercises, and going through its fundamentals time and again.**
 
 ---
 
