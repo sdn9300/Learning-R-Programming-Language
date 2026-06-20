@@ -42,7 +42,8 @@ Each directory contains `.R` scripts, exercises, and notes documenting key conce
 | Resource                             | Purpose                                                    |
 | ------------------------------------ | ---------------------------------------------------------- |
 | **R for Data Science (2e)**          | Primary resource for modern data analysis workflows        |
-| **Exercism R Track**                 | Programming practice and problem-solving                   |
+| **Various Online R Programming Language Exercises**      | 
+Programming practice and problem-solving                   |
 | **Advanced R**                       | Deep understanding of R internals and programming concepts |
 | **Hands-On Machine Learning with R** | Applied machine learning techniques                        |
 | **Swirl**                            | Interactive learning within the R console                  |
@@ -104,8 +105,8 @@ source("01-r-fundamentals/intro.R")
 
 ### Foundations
 
-* [x] Set up R and RStudio
-* [x] Learn basic functions and function composition
+* [✓] Set up R and RStudio
+* [] Learn basic functions and function composition
 * [ ] Master vectors and vectorized operations
 * [ ] Understand factors and data frames
 * [ ] Become comfortable with the apply family of functions
@@ -130,7 +131,7 @@ source("01-r-fundamentals/intro.R")
 
 ## Current Focus
 
-📌 **Exercism R Track – Fundamentals**
+📌 **Various Online R Track Exercises – Fundamentals**
 
 Recently completed an exercise, covering:
 
