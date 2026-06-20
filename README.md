@@ -21,7 +21,7 @@ learning-r/
 ├── 01-r-fundamentals/       # Variables, data types, operators, functions
 ├── 02-data-structures/      # Vectors, matrices, lists, factors, data frames
 ├── 03-control-flow/         # Conditionals, loops, apply family
-├── 04-exercism-solutions/   # Solutions and notes from Exercism R Track
+├── 04-exercise-solutions/   # Solutions and notes from various exercises of R Track
 ├── 05-data-import/          # Reading CSV, Excel, APIs, databases
 ├── 06-data-wrangling/       # dplyr, tidyr, stringr, lubridate
 ├── 07-exploratory-analysis/ # Summary statistics and EDA techniques
