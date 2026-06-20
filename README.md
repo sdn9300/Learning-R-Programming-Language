@@ -130,7 +130,7 @@ source("01-r-fundamentals/intro.R")
 
 ## Current Focus
 
-📌 **Strengthening the fundamentals and my understanding of the R programming language by practising exercises, and going through its fundamentals time and again.**
+📌 **Strengthening the fundamentals and my understanding of the R programming language through constant practise, and going through its fundamentals time and again.**
 
 ---
 
