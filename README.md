@@ -106,7 +106,7 @@ source("01-r-fundamentals/intro.R")
 ### Foundations
 
 * [✓] Set up R and RStudio
-* [] Learn basic functions and function composition
+* [✓] Learn basic functions and function composition
 * [ ] Master vectors and vectorized operations
 * [ ] Understand factors and data frames
 * [ ] Become comfortable with the apply family of functions
@@ -168,7 +168,6 @@ Recently completed an exercise, covering:
 * **Advanced R:** https://adv-r.hadley.nz
 * **Tidy Modeling with R:** https://www.tmwr.org
 * **R Graph Gallery:** https://r-graph-gallery.com
-* **Exercism R Track:** https://exercism.org/tracks/r
 * **CRAN Task Views:** https://cran.r-project.org/web/views/
 
 ---
