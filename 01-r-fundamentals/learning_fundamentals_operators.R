@@ -345,7 +345,7 @@ y <- c(3, 4)
 print(outer(x, y))       # Outer product
 print(crossprod(x, y))   # Cross product
 
-# Lesson 2.12.5:- Matrix Multiplication Operator (%*%)
+# Lesson 2.12.5:- Help Operator (? and ??)
 # Used to get documentation.
 ?mean     # Help on mean()
 ??string  # Search for functions containing 'string'
