@@ -1,6 +1,7 @@
 # First Session :- (21/06/2026)
 # Second Session :- (27/06/2026)
 # Third Session :- (28/06/2026)
+# Fourth Session :- (29/06/2026)
 
 # Contents:- 
 # 1. Data Types in R Programming Language:-
@@ -190,4 +191,78 @@ has_license <- FALSE
 as.numeric(age)               # 20
 as.numeric(has_license)       # 0
 
+# Lesson 3.4:- Vectors to Matrix
+# We use rbind() to combine multiple vectors into a matrix by binding them 
+# row-wise. 
+# Each vector becomes a row in the resulting matrix. 
+# All vectors should be of the same length to avoid recycling or errors.
+# * Syntax:
+#  rbind(vector1, vector2, vector3.....vectorN)
+# * Where:
+# rbind: Combines multiple vectors or data frames by rows.
+# We can also combine multiple vectors into a matrix by binding them 
+# column-wise using the cbind() function.
+# * Syntax:
+#  cbind(vector1, vector2, vector3.....vectorN)
+# * Where:
+# cbind: Combines multiple vectors or data frames by columns.
 
+vector1 <- c('red','green',"blue","yellow")
+vector2 <- c(1,2,3,4)
+
+print("Row Major Order")     # [1] "Row Major Order"
+rbind(vector1,vector2) 
+#         [,1]  [,2]    [,3]   [,4]    
+# vector1 "red" "green" "blue" "yellow"
+# vector2 "1"   "2"     "3"    "4"     
+
+print("Column Major Order")  # [1] "Column Major Order"
+cbind(vector1,vector2)
+#      vector1    vector2
+#[1,]    "red"    "1"    
+#[2,]    "green"  "2"  
+#[3,]    "blue"   "3"  
+#[4,]   "yellow" "4"   
+
+
+# Lesson 3.5:- Vectors to Data Frame
+# We use data.frame() to convert multiple vectors into a data frame. 
+# Each vector becomes a separate column in the data frame.
+# All vectors should be of equal length to maintain the structure.
+# * Syntax:
+#  data.frame(vector1, vector2, vector3..... vectorN)  
+# * Where:
+# data.frame: Creates a data frame by combining multiple vectors or variables 
+# into columns.
+
+vector1 <- c('red', 'green', "blue", "yellow")
+vector2 <- c(1, 2, 3, 4)
+
+data.frame(vector1, vector2)
+#   vector1    vector2
+#1     red       1
+#2   green       2
+#3    blue       3
+#4  yellow       4
+
+
+# Lesson 3.6:- Matrix to Vector
+# We use as.vector() to convert a matrix into a single long vector.
+# The elements of the matrix are accessed and filled into the vector 
+# in column-major order.
+# * Syntax:
+#  as.vector(matrix_name)
+# * Where:
+# as.vector: Converts a matrix or array into a vector.
+  
+mat<- matrix(c(1:6), nrow = 2)
+print("Sample Matrix")          # [1] "Sample Matrix"
+mat
+#       [,1] [,2] [,3]
+#[1,]    1    3    5
+#[2,]    2    4    6
+
+print("After conversion into vector")   # [1] "After conversion into vector"
+as.vector(mat)   # [1] 1 2 3 4 5 6
+
+  
